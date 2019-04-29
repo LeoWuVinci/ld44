@@ -1,0 +1,23 @@
+body { background-color:#AAA;
+margin:0px;
+font-family:Arial, sans-serif;
+user-select:none;
+}
+canvas#game {
+	position:fixed;
+	top:0px;
+}
+div#bottom-ui{
+	background-color:#CCC;
+	position:fixed;
+	bottom: 0px;
+}
+
+div#top-ui{
+	background-color:#CCC;
+	position:fixed;
+}
+
+div#shop-menu{
+	display:none;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<canvas id="game"></canvas>
+<div id=top-ui>
+HP <span id=hp></span> / <span id=max-hp></span>
+LIFE <span id=life></span> / <span id=max-life>1000</span>
+</div>
+<div id=bottom-ui>
+	<div id=shop-menu>
+		<h1>Shop</h1>
+		<button id=heal-btn>Heal</button>
+		<button id=repair-btn>Repair</button>
+		<canvas id=buy-weapon-canvas height=100 width=100></canvas>
+		<button id=buy-weapon-btn>Buy Weapon</button>
+	</div>
+	<div id=durability-div>
+	Durability <span id=weapon-durability></span> / <span id=max-weapon-durability></span>
+	</div>
+	<canvas id=weapon-slot-canvas height=100 width=100></canvas>
+	<button id=pick-up-button>Pick Up</button>
+	<button id=shop-button>Shop</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
